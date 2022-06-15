@@ -1,5 +1,6 @@
 ## Table of contents
 * [General info](#general-info)
+* [Introduction](#introduction)
 * [Technologies](#technologies)
 * [Download](#download)
 * [Sources](#sources)
@@ -21,14 +22,17 @@ This palette is used by
 * The Tiki 100 personal computer (only 16 colors can be displayed simultaneously)
 * Wear OS smartwatches with ambient displays (only 16 colors can be displayed simultaneously)
 
+## Introduction
+
 ## Technologies
 Project is created with:
 * Vscode: 1.67.2
 * Python version: 3.10.4 
 * Python Imaging Library (Fork): 9.1.1
 
-## Download the RGB332 (8-bit RGB) converter program
+## Download
 
+The RGB332 (8-bit RGB) converter program in python.
 It is simple program written in python, to run it you need just download project to your machine. To do that please use link below:
 
 ```
