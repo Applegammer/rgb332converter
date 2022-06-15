@@ -20,3 +20,9 @@ This palette is used by
 * SGI Indy 8-bit XL graphics
 * The Tiki 100 personal computer (only 16 colors can be displayed simultaneously)
 * Wear OS smartwatches with ambient displays (only 16 colors can be displayed simultaneously)
+
+## Technologies
+Project is created with:
+* Vscode: 1.67.2
+* Python version: 3.10.4 
+* Python Imaging Library (Fork): 9.1.1
