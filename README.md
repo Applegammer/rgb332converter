@@ -3,7 +3,6 @@
 * [Introduction](#introduction)
 * [Technologies](#technologies)
 * [Download](#download)
-* [Sources](#sources)
 
 ## General info
 8-bit RGB (also known as 3-3-2 bit RGB and 8-8-4 bit RGB)
@@ -21,6 +20,8 @@ This palette is used by
 * SGI Indy 8-bit XL graphics
 * The Tiki 100 personal computer (only 16 colors can be displayed simultaneously)
 * Wear OS smartwatches with ambient displays (only 16 colors can be displayed simultaneously)
+
+Source: https://en.wikipedia.org/wiki/List_of_monochrome_and_RGB_color_formats
 
 ## Introduction
 
