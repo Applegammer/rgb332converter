@@ -26,3 +26,12 @@ Project is created with:
 * Vscode: 1.67.2
 * Python version: 3.10.4 
 * Python Imaging Library (Fork): 9.1.1
+
+## Download the RGB332 (8-bit RGB) converter program
+
+It is simple program written in python, to run it you need just download project to your machine. To do that please use link below:
+
+```
+$ git clone https://github.com/Applegammer/rgb332converter-python-education.git
+
+```
