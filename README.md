@@ -24,6 +24,8 @@ This palette is used by
 
 ## Introduction
 
+This is an education project, so it isn't to commercial uses. Learning programming process it isn't only to do some course from the internet, so I've decided to create this project to try use python in practice. If for someone my program will be useful that will be great! To create my program I've used external sources e.g most popular "Stack Overflow" or generally the Internet. So if you decide copy my code, feel free, you can do it with it whatever you want. As I said on the begin, project was created only for education and for a start with programming in Python.
+
 ## Technologies
 Project is created with:
 * Vscode: 1.67.2
@@ -37,5 +39,4 @@ It is simple program written in python, to run it you need just download project
 
 ```
 $ git clone https://github.com/Applegammer/rgb332converter-python-education.git
-
 ```
