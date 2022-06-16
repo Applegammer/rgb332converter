@@ -9,6 +9,6 @@ pixel_map = im.load()
 # print (pixel_values)
 # print (pixel_map)
 
-rgb = pixel_map[0,0]
-
-print (rgb)
+for x in range (10):
+    for y in range (10):
+        print ("position of X: " + str(x) + " position of Y: " + str(y))
