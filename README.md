@@ -31,9 +31,9 @@ This is an education project, so it isn't to commercial uses. Learning programmi
 
 ## Technologies
 Project is created with:
-* Vscode: 1.67.2
-* Python version: 3.10.4 
-* Python Imaging Library (Fork): 9.1.1
+* Vscode: _1.67.2_
+* Python version: _3.10.4_ 
+* Python Imaging Library (Fork): _9.1.1_
 
 ## Download
 
@@ -44,6 +44,10 @@ It is simple program written in python, to run it you need just download project
 $ git clone https://github.com/Applegammer/rgb332converter-python-education.git
 ```
 ## Run
+
+To run is required: 
+* Python version: _3.x.x (recommended 3.10.4)_
+* Pillow library: _9.1.1 or higher_
 
 **Linux:**
 ```
