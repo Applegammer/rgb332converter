@@ -16,5 +16,5 @@ for x in range (width):
         print ("position of X: " + str(x) + " position of Y: " + str(y))
         rgb24 = pixel_map [x, y]
         print (rgb24)
-        rgb_output.write(str(rgb24))
+        rgb_output.write(str(rgb24) + "," )
 rgb_output.close()
