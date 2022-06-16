@@ -3,6 +3,7 @@
 * [Introduction](#introduction)
 * [Technologies](#technologies)
 * [Download](#download)
+* [Run](#run)
 * [Roadmap](#roadmap)
 
 ## General info
@@ -42,7 +43,20 @@ It is simple program written in python, to run it you need just download project
 ```
 $ git clone https://github.com/Applegammer/rgb332converter-python-education.git
 ```
+## Run
 
+Linux:
+```
+$ python ./converter_rgb332.py
+```
+OR
+```
+$ python3 ./converter_rgb332.py
+```
+Windows:
+```
+$ py converter_rgb332.py
+```
 ## Roadmap
 
 Basically information about project roadmap, what steps I want realize on the project
