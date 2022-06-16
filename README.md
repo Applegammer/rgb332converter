@@ -65,11 +65,11 @@ $ py converter_rgb332.py
 
 Basically information about project roadmap, what steps I want realize on the project
 ### Stage one
-* Open an image 
-* Take image width,height
-* Take RGB (red, green, blue) values from once pixel
-* Create a loop where will be take RGB for all lines X,Y
-* Save values to file
+* ~~Open an image~~ 
+* ~~Get image width and height~~
+* ~~Take RGB (red, green, blue) values from once pixel~~
+* ~~Create a loop where will be take RGB for all lines X,Y~~
+* ~~Save values to file~~
 ### Stage two - feature #1
 * Add to program feature which convert 24-bit RGB to 3-3-2 bit RGB (RGB332)
 ### Stage three - feature #2
