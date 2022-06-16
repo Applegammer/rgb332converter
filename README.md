@@ -45,15 +45,15 @@ $ git clone https://github.com/Applegammer/rgb332converter-python-education.git
 ```
 ## Run
 
-Linux:
+**Linux:**
 ```
 $ python ./converter_rgb332.py
 ```
-OR
+**OR**
 ```
 $ python3 ./converter_rgb332.py
 ```
-Windows:
+**Windows:**
 ```
 $ py converter_rgb332.py
 ```
