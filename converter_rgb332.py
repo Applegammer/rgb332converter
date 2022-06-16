@@ -5,6 +5,10 @@ width, height = im.size
 pixel_values = list(im.getdata())
 pixel_map = im.load()
 
-print (width, height)
-print (pixel_values)
-print(pixel_map)
+# print (width, height)
+# print (pixel_values)
+# print (pixel_map)
+
+rgb = pixel_map[0,0]
+
+print (rgb)
