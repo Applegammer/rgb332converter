@@ -11,6 +11,11 @@ for y in range (height):                                                        
     for x in range (width):                                                     # For y lines from 0 to end width of an image
         # print ("position of X: " + str(x) + " position of Y: " + str(y))      # Values to debugging if loop works properly
         rgb24 = pixel_map [x, y]                                                # Value store RGB palett
+        r, g, b = pixel_map [x, y]                                              # Value store RGB palett (r - red, g - green, b - blue)
+        r3 = int(r / 32)
+        g3 = int(g / 32)
+        b2 = int(b / 64)
+        rgb332 = (r3, g3, b2)
         # print (rgb24)                                                         # Values to debbugging if RGB output from pixels are correctly
-        rgb_output.write(str(rgb24) + "," )                                     # Store output values to a file
+        rgb_output.write(str(rgb332) + ", " )                                   # Store output values to a file
 rgb_output.close()                                                              # Close file after loop end
