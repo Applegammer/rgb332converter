@@ -9,13 +9,10 @@ pixel_map = im.load()                       # Check lines X,Y and get values fro
 rgb_output = open('test_output.txt', 'w')                                       # Value which create a text file, where will be store output data
 for y in range (height):                                                        # For x lines from 0 to end height of an image
     for x in range (width):                                                     # For y lines from 0 to end width of an image
-        # print ("position of X: " + str(x) + " position of Y: " + str(y))      # Values to debugging if loop works properly
-        # rgb24 = pixel_map [x, y]                                              # Value store RGB palett
         r, g, b = pixel_map [x, y]                                              # Value store RGB palett (r - red, g - green, b - blue)
         r3 = int(r / 32)                                                        # Change red value from 24-bit to 8 bit (3 bit for red)
         g3 = int(g / 32)                                                        # Change green value from 24-bit to 8 bit (3 bit for green)
         b2 = int(b / 64)                                                        # Change blue value from 24-bit to 8 bit (3 bit for blue)
         rgb332 = (r3, g3, b2)                                                   # Value store RGB332 palett
-        # print (rgb24)                                                         # Values to debbugging if RGB output from pixels are correctly
         rgb_output.write(str(rgb332) + ", " )                                   # Store output values to a file
 rgb_output.close()                                                              # Close file after loop end
