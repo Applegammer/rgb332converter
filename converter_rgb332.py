@@ -1,7 +1,7 @@
 from PIL import Image
 
 #Part of function from PILLOW library
-im = Image.open('bw_template.png', 'r')     # Function opens an image from the defined path
+im = Image.open('rainbow_template.png', 'r')     # Function opens an image from the defined path
 width, height = im.size                     # Defined two values witch will be use on the loop to check  pixel by pixel and it take width and height from an image
 pixel_map = im.load()                       # Check lines X,Y and get values from an image (e.g pixel 0,0 give 255, 255, 255 RGB palette)
 
