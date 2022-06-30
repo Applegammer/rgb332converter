@@ -14,9 +14,9 @@ for y in range (height):                                                        
         g3 = int(g / 32)                                                        # Change green value from 24-bit to 8 bit (3 bit for green)
         b2 = int(b / 64)                                                        # Change blue value from 24-bit to 8 bit (3 bit for blue)
         # rgb332 = (r3, g3, b2)                                                 # Value store RGB332 palett
-        bin_r = bin(r3)[2:]
-        bin_g = bin(g3)[2:]
-        bin_b = bin(b2)[2:]
+        bin_r = bin(r3)[2:]                                                     # Lines [17-19] change red, green, blue value to binary 
+        bin_g = bin(g3)[2:]                                                     # [2:] remove '0b' from value, after convert to binary
+        bin_b = bin(b2)[2:]                                                     # 
         binary_rgb = (bin_r, bin_g, bin_g)
         rgb_output.write(str(binary_rgb) + ", " )                               # Store output values to a file
-rgb_output.close()                                                              # Close file after loop end
+rgb_output.close()                                                              # Close file after loop end, there is end of program, last line.
