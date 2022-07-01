@@ -74,7 +74,7 @@ Basically information about project roadmap, what steps I want realize on the pr
 * ~Add to program feature which convert 24-bit RGB to 8-bit (split 3-3-2 bit red/green/blue) RGB332~
 ### Stage three - feature #2
 * ~~Change RGB332 values to binary string~~
-* Sum binary values to one string (because I need 8-bit in string)
+* ~~Marge binary values to one string (because I need 8-bit in string)~~
 ### Stage four - feature #3
 * Change binary to decimal system
 ### Additional
