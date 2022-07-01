@@ -17,6 +17,6 @@ for y in range (height):                                                        
         bin_r = bin(r3)[2:].zfill(3)                                            # Lines [17-19] change red, green, blue value to binary 
         bin_g = bin(g3)[2:].zfill(3)                                            # [2:] remove '0b' from value, after convert to binary
         bin_b = bin(b2)[2:].zfill(2)                                            # The zfill() method adds zeros (0) at the beginning of the string, until it reaches the specified length.
-        binary_rgb = (bin_r, bin_g, bin_g)
-        rgb_output.write(str(binary_rgb) + ", " )                               # Store output values to a file
+        bin_string = bin_r + bin_g + bin_b                                      # Marged three binary values to the one, finally have 8 - bit value
+        rgb_output.write(str(bin_string) + ", ")                                # Store output values to a file
 rgb_output.close()                                                              # Close file after loop end, there is end of program, last line.
