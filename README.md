@@ -76,7 +76,7 @@ Basically information about project roadmap, what steps I want realize on the pr
 * ~~Change RGB332 values to binary string~~
 * ~~Marge binary values to one string (because I need 8-bit in string)~~
 ### Stage four - feature #3
-* Change binary to decimal system
+* ~~Change binary to decimal system~~
 ### Additional
 * Make choice to put name of your file, and choosing extenstion (e.g .txt,.pdf,.docx)
 * Make option to choose file from your desktop and load to the program
