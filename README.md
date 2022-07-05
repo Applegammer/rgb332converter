@@ -48,6 +48,7 @@ $ git clone https://github.com/Applegammer/rgb332converter-python-education.git
 To run is required: 
 * Python version: _3.x.x (recommended 3.10.4)_
 * Pillow library: _9.1.1 or higher_
+* tkinter library: _0.1.0_
 
 **Linux:**
 ```
@@ -79,4 +80,4 @@ Basically information about project roadmap, what steps I want realize on the pr
 * ~~Change binary to decimal system~~
 ### Additional
 * Make choice to put name of your file, and choosing extenstion (e.g .txt,.pdf,.docx)
-* Make option to choose file from your desktop and load to the program
+* ~~Make option to choose file from your desktop and load to the program~~
