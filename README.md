@@ -66,22 +66,6 @@ $ py converter_rgb332.py
 ## Roadmap
 
 Basically information about project roadmap, what steps I want realize on the project
-### Stage one
-* ~~Open an image~~ 
-* ~~Get image width and height~~
-* ~~Take RGB (red, green, blue) values from once pixel~~
-* ~~Create a loop where will be take RGB for all lines X,Y~~
-* ~~Save values to file~~
-### Stage two - feature #1
-* ~Add to program feature which convert 24-bit RGB to 8-bit (split 3-3-2 bit red/green/blue) RGB332~
-### Stage three - feature #2
-* ~~Change RGB332 values to binary string~~
-* ~~Marge binary values to one string (because I need 8-bit in string)~~
-### Stage four - feature #3
-* ~~Change binary to decimal system~~
-### Additional
-* Make choice to put name of your file, and choosing extenstion (e.g .txt,.pdf,.docx)
-* ~~Make option to choose file from your desktop and load to the program~~
 
 ### First release with new features
 * Create basic interface for program (non-GUI)
