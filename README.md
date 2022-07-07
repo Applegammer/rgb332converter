@@ -33,7 +33,8 @@ This is an education project, so it isn't to commercial uses. Learning programmi
 Project is created with:
 * Vscode: _1.67.2_
 * Python version: _3.10.4_ 
-* Python Imaging Library (Fork): _9.1.1_
+* Pillow (PIL Fork): _9.2.0_
+* Tkinter Tk GUI toolkit: _0.1.0_
 
 ## Download
 
@@ -46,8 +47,8 @@ $ git clone https://github.com/Applegammer/rgb332converter-python-education.git
 ## Run
 
 To run is required: 
-* Python version: _3.x.x (recommended 3.10.4)_
-* Pillow library: _9.1.1 or higher_
+* Python version: _3.x.x (recommended 3.10.4)_ 
+* Pillow library: _9.2.0 or higher_
 * tkinter library: _0.1.0_
 
 **Linux:**
@@ -81,3 +82,12 @@ Basically information about project roadmap, what steps I want realize on the pr
 ### Additional
 * Make choice to put name of your file, and choosing extenstion (e.g .txt,.pdf,.docx)
 * ~~Make option to choose file from your desktop and load to the program~~
+
+### First release with new features
+* Create basic interface for program (non-GUI)
+* Make a choice to load an image from your computer
+* Make a choice to save your output to file, whataver you want on your computer
+* Support for most popular images extension formats (eg. PNG, JPG, BMP, GIF)
+* Fix small bugs
+### Build basic GUI
+* Create a GUI for program to be much better user-friendly
