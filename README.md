@@ -75,3 +75,5 @@ Basically information about project roadmap, what steps I want realize on the pr
 * Fix small bugs
 ### Build basic GUI
 * Create a GUI for program to be much better user-friendly
+### Extra feature 
+* Function to draw/convert image form 24-bit to 8-bit 
