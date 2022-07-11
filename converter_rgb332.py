@@ -29,7 +29,6 @@ def convert_rgb_to_rgb332(image_load, path_file):
             r3 = int(r / 32)                                                        # Change red value from 24-bit to 8 bit (3 bit for red).
             g3 = int(g / 32)                                                        # Change green value from 24-bit to 8 bit (3 bit for green).
             b2 = int(b / 64)                                                        # Change blue value from 24-bit to 8 bit (2 bit for blue).
-            # rgb332 = (r3, g3, b2)                                                 # Value store RGB332 palett.
             bin_r = bin(r3)[2:].zfill(3)                                            # Lines [17-19] change red, green, blue value to binary.
             bin_g = bin(g3)[2:].zfill(3)                                            # [2:] remove '0b' from value, after convert to binary.
             bin_b = bin(b2)[2:].zfill(2)                                            # The zfill() method adds zeros (0) at the beginning of the string, until it reaches the specified length.
@@ -43,12 +42,12 @@ def program_menu():
     
     while True:
         
-        print(' Choose an option:')
+        print(' Converter RGB to RGB332:')
         print(' [1] -- Select an image --')
         print(' [2]  -- Save as a file --')
         print(' [3]   -- Exit program --')
 
-        option = input(' Please, which option you choose [1-3]: ')
+        option = input(' Please choose an option [1-3]: ')
 
         if option == '1':
 
@@ -72,5 +71,8 @@ def program_menu():
         else:
 
             print('\n [WARNING]: Something went wrong, please choose option again \n')
+            
+msg = open("non-GUI/logo", "r")
+print(msg.read())
 
 program_menu()
