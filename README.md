@@ -76,5 +76,5 @@ Basically information about project roadmap, what steps I want realize on the pr
 ### Build basic GUI
 * Create a GUI for program to be much better user-friendly
 ### Extra feature
-* Executable app for Windows (Support) 
+* ~~Built app for Windows (Support)~~ 
 * Function to draw/convert image form 24-bit to 8-bit 
