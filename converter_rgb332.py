@@ -40,37 +40,58 @@ def convert_rgb_to_rgb332(image_load, path_file):
 def program_menu():
     #Simple menu with options to execute
     
-    while True:
-        
-        print(' Converter RGB to RGB332:')
-        print(' [1] -- Select an image --')
-        print(' [2]  -- Save as a file --')
-        print(' [3]   -- Exit program --')
-
-        option = input(' Please choose an option [1-3]: ')
-
-        if option == '1':
-
-            print(' [First option has selected]')
-            im_path = im_load()
-            print('\n INFO: Image has loaded from: ' + im_path + '\n')
-
-        elif option == '2':
+    try:
+        while True:
             
-            print(' [Second option has selected]')
-            save_output = file_save()
-            convert_rgb_to_rgb332(im_path, save_output) 
-            print('\n [INFO]: File has saved in: ' + save_output + '\n')
+            print(' Converter RGB to RGB332:')
+            print(' [1] -- Select an image --')
+            print(' [2]  -- Save as a file --')
+            print(' [3]   -- Exit program --')
 
-        elif option == '3':
-            
-            print(' Third option has selected')
-            print('\n [INFO]: Program has closed \n')
-            exit()
+            option = input(' Please choose an option [1-3]: ')
 
-        else:
+            if option == '1':
+                
+                try:
+                    print(' [First option has selected]')
+                    im_path = im_load()
+                    print('\n [INFO]: Image has loaded from: ' + im_path + '\n')
+                except TypeError:
+                    print()
+                    print(' [WARN]: Please choose an image to load \n')
 
-            print('\n [WARNING]: Something went wrong, please choose option again \n')
+            elif option == '2':
+                
+                try:
+                    print(' [Second option has selected]')
+                    save_output = file_save()
+                    convert_rgb_to_rgb332(im_path, save_output) 
+                    print('\n [INFO]: File has saved in: ' + save_output + '\n')
+                except TypeError:
+                    print()
+                    print(' [WARN]: Something went wrong, please try again \n')
+                
+                except UnboundLocalError:
+                    print()
+                    print(' [WARN]: No data to save, please load image first to the program \n')
+
+            elif option == '3':
+                
+                print(' Third option has selected')
+                print('\n [INFO]: Program has closed \n')
+                exit()
+
+            else:
+
+                print('\n [WARNING]: Something went wrong, please choose option again \n')
+
+    except EOFError:
+        print()
+        print(' [ERROR]: Unexpected action in program')
+    except KeyboardInterrupt:
+        print()
+        print(' [INFO]: Program has closed unexpected  ')
+        exit()
             
 msg = open("non-GUI/logo", "r")
 print(msg.read())
