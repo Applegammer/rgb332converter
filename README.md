@@ -27,7 +27,7 @@ Source: https://en.wikipedia.org/wiki/List_of_monochrome_and_RGB_color_formats
 
 ## Introduction
 
-This is an education project, so it isn't to commercial uses. Learning programming process it isn't only to do some course from the internet, so I've decided to create this project to try use python in practice. If for someone my program will be useful that will be great! To create my program I've used external sources e.g most popular "Stack Overflow" or generally the Internet. So if you decide copy my code, feel free, you can do it with it whatever you want. As I said on the begin, project was created only for education and for a start with programming in Python.
+This is an education project, so it isn't for commercial use. Learning programming process it isn't only to do some course from the internet, so I've decided to create this project to try use python in practice. If for someone my program will be useful that will be great! To create my program I've used external sources e.g most popular "Stack Overflow" or generally the Internet. So if you decide copy my code, feel free, you can do it whatever you want with the code. As I said from the begin, project was created only for education and for a start with programming in Python.
 
 ## Technologies
 Project is created with:
@@ -39,7 +39,7 @@ Project is created with:
 ## Download
 
 The RGB332 (8-bit RGB) converter program in python.
-It is simple program written in python, to run it you need just download project to your machine. To do that please use link below:
+To run it you just need download project to your machine. To do that please use link below:
 
 ```
 $ git clone https://github.com/Applegammer/rgb332converter-python-education.git
@@ -74,7 +74,7 @@ Basically information about project roadmap, what steps I want realize on the pr
 * Support for most popular images extension formats (eg. ~~PNG~~, JPG, BMP, GIF)
 * Fix small bugs
 ### Build basic GUI
-* Create a GUI for program to be much better user-friendly
+* Create a GUI for program to make much better user-friendly
 ### Extra feature
 * ~~Built app for Windows (Support)~~ 
-* Function to draw/convert image form 24-bit to 8-bit 
+* Add function to draw/convert image form 24-bit to 8-bit 
