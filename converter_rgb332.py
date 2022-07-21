@@ -2,12 +2,12 @@ from PIL import Image
 from tkinter import filedialog as window
 
 def im_load():
-    #Open dialog box to open an image from your computer, from your select path
+    #Open dialog box to load an image with selected path, from your computer
     open_box = window.askopenfilename(initialdir=".", title="Open file", filetypes=[("PNG files", "*.png")])
     return open_box
 
 def file_save():
-    #Open dialog box to save aa file on your computer, from your select path
+    #Open dialog box to save an file with selected path from your computer
     save_box = window.asksaveasfilename(initialdir=".", title="Save file", filetypes=[("TXT file", "*.txt")])
     return save_box
 
@@ -38,7 +38,7 @@ def convert_rgb_to_rgb332(image_load, path_file):
     rgb_output.close()                                                              # Close file after loop end, there is end of program, last line.
 
 def program_menu():
-    #Simple choose menu with options to execute
+    #Simple menu with options to execute
     
     while True:
         
