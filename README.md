@@ -71,8 +71,8 @@ Basically information about project roadmap, what steps I want realize on the pr
 * ~~Create basic interface for program (non-GUI)~~
 * ~~Having a choice to load an image from your computer~~
 * ~~Having a choice to save your output to file, anywhere you want on your computer~~
+* ~~Fix small bugs~~
 * Support for most popular images extension formats (eg. ~~PNG~~, JPG, BMP, GIF)
-* Fix small bugs
 ### Build basic GUI
 * Create a GUI for program to make much better user-friendly
 ### Extra feature
