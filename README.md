@@ -27,10 +27,10 @@ Source: https://en.wikipedia.org/wiki/List_of_monochrome_and_RGB_color_formats
 
 ## Introduction
 
-This is an education project, so it isn't for commercial use. Learning programming process it isn't only to do some course from the internet, so I've decided to create this project to try use python in practice. If for someone my program will be useful that will be great! To create my program I've used external sources e.g most popular "Stack Overflow" or generally the Internet. So if you decide copy my code, feel free, you can do it whatever you want with the code. As I said from the begin, project was created only for education and for a start with programming in Python.
+This is an education project, so it isn't for commercial use. It isn't only about taking a course from the internet when learning programming, so I created this project to try python in practice. That would be great if my program was useful to someone! In creating my program, I used external sources such as the most popular "Stack Overflow" or, more generally, the Internet. Hence, if you decide to copy my code, you can do whatever you like with it. As I said from the begin, project was created only for education and to learn Python programming.
 
 ## Technologies
-Project is created with:
+Project is create with:
 * Vscode: _1.67.2_
 * Python version: _3.10.4_ 
 * Pillow (PIL Fork): _9.2.0_
