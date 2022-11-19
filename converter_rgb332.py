@@ -74,6 +74,10 @@ def program_menu():
                 except UnboundLocalError:
                     print()
                     print(' [WARN]: No data to save, please load image first to the program \n')
+                
+                except AttributeError:
+                    print()
+                    print(' [WARN]: No data to save, please load image first to the program  \n')
 
             elif option == '3':
                 
